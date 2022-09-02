@@ -1,0 +1,53 @@
+body {
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+	padding: 69px;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.kotak {
+	width: 800px;
+	height: 520px;
+	background-color:#b6ced1;
+	margin: 0 auto;
+	padding-top: 20px;
+	border-radius: 10px;
+}
+.foto {
+	background-image: url(img/saya.jpg);
+	background-size: cover;
+	border-radius: 100px;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	border: 5px solid #dfe6e5;
+}
+h1 {
+	text-align: center;
+	font-size: 25px;
+	margin: 0;
+	font-weight: bold;
+	color: black;
+	font-family: 'Times New Roman', Times, serif;
+}
+.text {
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+}
+p {
+	margin: 0 auto;
+	padding-top: 30px;
+	width: 450px;
+	height: auto;
+	color: #324e63;
+	font-size: 16px;
+}
+
+.footer {
+   position:absolute;
+   bottom:85px;
+   width:61%;
+   height:50px;
+}
