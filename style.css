@@ -45,9 +45,10 @@ p {
 	font-size: 16px;
 }
 
-.footer {
-   position:absolute;
-   bottom:85px;
-   width:61%;
-   height:50px;
+a {
+	background: white;
+	border-radius: 10px;
+	 padding:10px 20px;
+   text-decoration: none;
+   color: black;
 }
