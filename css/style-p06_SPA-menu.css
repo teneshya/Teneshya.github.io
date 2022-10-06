@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/bg3.jpg");
+    background-size: 120%;
+}
+
+ul{
+	list-style-type: none;
+	overflow: hidden;
+	margin: 10px;
+	border: 2px solid white;
+	background-color: #8ed1a6;
+	border-radius: 50px;
+}
+
+.aktif {
+	font-weight: bold;
+	text-decoration: underline;
+	color: black;
+}
+
+li{
+	float: right;
+
+}
+
+li a{
+	display: list-item;
+	color: black;
+	padding: 15px 3px;
+	padding-right: 30px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+li a:hover {
+	transform: scale(1.1);
+}
+
+.isi-menu{
+	background-color: whitesmoke;
+	padding: 35px;
+	display: none;
+	color: black;
+	font-family: calibri;
+	border-radius: 50px;
+	box-shadow: 2px 2px 5px gray;
+}
+
+.tombol-back-spamenu a{
+    background:#2C97DF;
+    color:white;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    border-bottom:5px solid #2A80B9;
+    padding:10px 20px;
+    text-decoration:none;
+    font-family:sans-serif;
+    font-size:11pt;
+}

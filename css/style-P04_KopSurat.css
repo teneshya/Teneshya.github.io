@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+        
+body{
+    font-family: Arial, sans-serif;
+    background-color: #a3a3a3;
+}
+
+.kertas-surat{
+    width: 100%;
+    border: 1px solid #ccc;
+    max-width: 21cm;
+    margin: auto;
+    padding: 1cm 1cm 1cm 1cm;
+    background-color: white;
+}
+
+.sampul-kopsurat{
+    height: 2.9cm;
+    display: grid;
+    grid-template-columns: 11cm 8cm;
+}
+
+.pembungkus-logo{
+    height: 2cm;
+}
+
+.logo-kopsurat{
+    text-align: center;
+}
+
+.rata-kiri{
+    display: grid;
+    grid-template-columns: 2cm auto;
+}
+
+.sampul-logo{
+    text-align: center;
+}
+
+.ikmi-logo{
+    width: 1.8cm;
+    margin-top: 5px;
+}
+
+.text_color-kopsurat{
+    font-size: 11px;
+    letter-spacing: .2px;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 7px;
+    padding-top: 7px;
+}
+
+.text-color-stmik{
+    display: grid;
+    grid-template-columns: 5.5cm auto;
+    display: pinkz;
+    margin-top: 8px;
+}
+
+.color-stmik{
+    font-size: 55px;
+    font-weight: bold;
+    color: red;
+    margin-top: -10px;
+    letter-spacing: 5px;
+    padding-left: 10px;
+}
+
+.text-ikmi-cirebon{
+    padding-left: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.kampus{
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.color-ikmi{
+    color: #0d50bd;
+    font-size: 33px;
+    letter-spacing: 11px;
+    margin-top: -2.5px;
+}
+
+.color-cirebon{
+    color: #12631a;
+    letter-spacing: 5.7px;
+    font-size: 15px;
+    margin-top: -7px;
+}
+
+.pembungkus-alamat{
+    height: 2cm;
+}
+
+.alamat-kopsurat{
+    padding-top: 9px;
+    padding-left: 20px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.sampul-sk{
+    height: 0.6cm;
+    padding-top: 2.5px;
+}
+
+.color-suratket{
+    background-color: red;
+}
+
+.color-terakreditasi{
+    background-color: green;
+}
+
+.color-suratket, .color-terakreditasi{
+    text-align: center;
+    color: white;
+}
+
+.form-isi{
+    width: 19cm;
+    height: 20cm;
+}
+
+.judul-surat{
+    text-align: center;
+    margin: 15px 0 0 0;
+    font-size: 16pt;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+.nomor-surat{
+    text-align: center;
+    font-size: 10pt;
+    margin-top: 5px;
+}
+
+.tombol-back-kopsurat a{
+    background:#2C97DF;
+    color:white;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    border-bottom:5px solid #2A80B9;
+    padding:10px 20px;
+    text-decoration:none;
+    font-family:sans-serif;
+    font-size:11pt;
+}

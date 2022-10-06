@@ -1,0 +1,133 @@
+body{
+	background-image: url('../img/gedung.jpg');
+    display: block;
+	background-size: cover;
+	height: 50px;
+}
+
+.kopsurat{
+	background-color: white; 
+	align-content:center;
+}
+
+.kopsurat tr td img{
+	padding-left: 55%;
+}
+
+.ket{
+    padding-bottom: 10px;
+}
+
+.petunjukpengisian{
+    background-color: white;
+    width: 800px;
+    margin: 10px auto;
+    padding: 1px;
+}
+
+.kotak{
+	background-color: #dcdfe0;
+    border-radius: 5px;
+}
+.kotak2{
+    background-color: #dcdfe0;
+    border-radius: 5px;
+}
+.kotak3{
+    background-color: #dcdfe0;
+    border-radius: 5px;
+}
+.inputan {
+    width: 100%;
+    height: 25px;
+    padding: 1px 0;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.inputandp {
+    width: 208%;
+    height: 25px;
+    padding: 1px 0;
+    border-radius: 5px;
+}
+
+.inputandt {
+    width: 209%;
+    height: 25px;
+    padding: 1px 0;
+    border-radius: 5px;
+}
+
+.ttd{
+	text-align: right;
+}
+
+.inputanttd {
+    width: 10%;
+    height: 25px;
+    padding: 1px 0;
+    border-radius: 5px;
+}
+
+.inputanttdnama {
+    width: 20%;
+    height: 25px;
+    padding: 1px 0;
+    border-radius: 5px;
+}
+
+.tombol-back-responsive a{
+    background:#2C97DF;
+    color:white;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    border-bottom:5px solid #2A80B9;
+    padding:5px 20px;
+    text-decoration:none;
+    font-family:sans-serif;
+    font-size:11pt;
+}
+
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    body {
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+    .kopsurat{
+        width: 100%;
+    }
+    .ket{
+        font-size: 12px;
+        padding-left: 60px;
+        padding-right: 40px;
+    }
+    .petunjukpengisian{
+        width: 100%;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .kotak{
+        width: 50%;
+    }
+    .inputan{
+        width: 102%;
+    }
+    .inputandp{
+        width: 219%;
+    }
+    .inputanttd{
+        width: 20%;
+    }
+    .inputanttdnama{
+        width: 30%;
+    }
+    p{
+        font-size: 14px;
+    }
