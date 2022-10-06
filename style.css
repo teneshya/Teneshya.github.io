@@ -1,13 +1,13 @@
 body {
 	background-image: url(img/bg.jpg);
-	background-size: cover;
+	background-size: 200%;
 	padding: 69px;
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
 }
 
 .kotak {
-	width: 800px;
+	width: 750px;
 	height: 520px;
 	background-color:#b6ced1;
 	margin: 0 auto;
@@ -17,11 +17,16 @@ body {
 .foto {
 	background-image: url(img/saya.jpg);
 	background-size: cover;
-	border-radius: 100px;
+	border-radius: 100%;
 	width: 150px;
 	height: 150px;
 	margin: 0 auto;
-	border: 5px solid #dfe6e5;
+	border: 6px solid #dfe6e5;
+}
+.foto:hover{
+	transform: scale(1.1);
+	opacity: 100%;
+	box-shadow: 1px 1px 5px grey;
 }
 h1 {
 	text-align: center;
@@ -45,10 +50,176 @@ p {
 	font-size: 16px;
 }
 
-a {
-	background: white;
-	border-radius: 10px;
-	padding:10px 20px;
-  	text-decoration: none;
-   	color: black;
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+	list-style-type: none;
+	overflow: hidden;
+	margin: 60px;
+	background-color: white;
+	border-radius: 50px;
+}
+
+.aktif {
+	font-weight: bold;
+	color: black;
+}
+
+li{
+	float: right;
+
+
+}
+
+li a{
+	display: list-item;
+	color: black;
+	padding: 10px 3px;
+	padding-right: 78px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+li a:hover {
+	transform: scale(1.1);
+}
+
+.isi-menuhome{
+	background-color: whitesmoke;
+	padding: 35px;
+	display: none;
+	color: black;
+	font-family: calibri;
+	text-align: justify;
+	border-radius: 50px;
+	box-shadow: 1px 1px 5px gray;
+}
+
+.isi-menuproject{
+    background-color: white;
+    padding: 25px;
+    color: black;
+    font-family: calibri;
+    text-align: left;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.isi-menuproject a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.isi-menuproject a:hover {
+  background: #f2f2f2;
+  cursor: pointer;
+}
+
+.isi-menuaboutme{
+	background-color: whitesmoke;
+	padding: 35px;
+	display: none;
+	color: black;
+	font-family: calibri;
+	text-align: justify;
+	border-radius: 50px;
+	box-shadow: 1px 1px 5px gray;
+}
+
+.isi-menucontact{
+	background-color: whitesmoke;
+	padding: 20px;
+	display: none;
+	color: black;
+	font-family: calibri;
+	text-align: justify;
+	border-radius: 50px;
+	box-shadow: 1px 1px 5px gray;
+}
+
+
+
+
+#typing {
+	width: auto;
+    color: #676767;
+ 	float: center;
+	font-size: 30px;
+	margin: 0 auto;
+	padding: 5px;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: typing 8s steps(24) 0s infinite;
+}
+
+
+@keyframes typing{
+	from{
+      width: 0;
+  }
+   to{
+      width: 500px;
+   }
+}
+
+
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    body {
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+    .kotak{
+    	width: 100%;
+    }
+    #typing{
+    	width: 100%;
+    	font-size: 20px;
+    	margin-bottom: 5%;
+    }
+    @keyframes typing{
+    	from{
+    		width: 0;
+    	}
+    	to{
+    		width: 310px;
+    	}
+    }
+    h1{
+    	font-size: 23px;
+    }
+    .text{
+    	font-size: 13px;
+    }
+    ul{
+    	margin: 40px;
+    	margin-top: 25%;
+    }
+    li a{
+    	padding: 10px 3px;
+    	font-size: 11px;
+    	padding-right: 22px;
+    }
+    .isi-menuproject{
+    	font-size: 12px;
+    }
+    .isi-menuhome{
+    	font-size: 12px;
+    }
+    .isi-menuaboutme{
+    	font-size: 12PX;
+    }
+    .isi-menucontact{
+    	font-size: 12px;
+    }
 }
