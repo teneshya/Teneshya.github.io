@@ -91,7 +91,6 @@ body{
 }
 
 @media only screen and (max-width: 800px) {
-    /* For mobile phones: */
     body {
         box-sizing: border-box;
         max-width: 100%;
